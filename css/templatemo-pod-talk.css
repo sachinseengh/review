@@ -1353,7 +1353,7 @@ a.button:hover {
   }
 
   .navbar-nav {
-    background-color: var(--primary-color);
+    background-color: #e3e3e3;
     border-radius: var(--border-radius-medium);
     padding: 30px;
   }
