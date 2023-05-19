@@ -255,7 +255,7 @@ main {
 .navbar {
   background-color: transparent;
   z-index: 9;
-  /* padding-top: 20px; */
+  margin-top: 20px;
   /* padding-bottom: 20px; */
 }
 
@@ -1687,7 +1687,7 @@ hr{
   height: calc(100% - 15px);
   width: calc(100% - 15px);
   color: var(--primary-color);
-  /* background-color: #c73030; */
+  background-color: #ede9e9;
   border-radius: 50%;
   display: grid;
   place-items: center;
