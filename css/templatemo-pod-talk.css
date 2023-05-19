@@ -396,7 +396,7 @@ main {
   height: 35px;
   outline: none;
   /* color:black; */
-  background-color: black;
+  background-color:var(--secondary-color);
 }
 
 .navbar-toggler:focus {
