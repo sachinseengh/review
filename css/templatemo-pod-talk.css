@@ -8,7 +8,7 @@
   --custom-btn-bg-color: #0066cc;
   --custom-btn-bg-hover-color: #00cc99;
   --dark-color: #000000;
-  --p-color: #717275;
+  --p-color: #52da37;
   --border-color: #7fffd4;
   --link-hover-color: #0066cc;
   --body-font-family: "Montserrat", sans-serif;
@@ -255,7 +255,7 @@ main {
 .navbar {
   background-color: transparent;
   z-index: 9;
-  /* padding-top: 20px; */
+  margin-top: 20px;
   /* padding-bottom: 20px; */
 }
 
@@ -286,7 +286,7 @@ main {
 
 .navbar-nav .nav-link {
   display: inline-block;
-  color: var(--dark-color);
+  /* color: var(--p-color); */
   font-family: var(--title-font-family);
   font-size: var(--menu-font-size);
   font-weight: var(--font-weight-medium);
@@ -1687,7 +1687,7 @@ hr{
   height: calc(100% - 15px);
   width: calc(100% - 15px);
   color: var(--primary-color);
-  /* background-color: #c73030; */
+  background-color: #ede9e9;
   border-radius: 50%;
   display: grid;
   place-items: center;
