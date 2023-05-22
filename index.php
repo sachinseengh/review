@@ -23,54 +23,7 @@ include('headerfooter/header.php');
     <main >
         <br>
         
-<!-- slider -->
-        <!-- <section class="main swiper mySwiper">
-            <div class="wrapper swiper-wrapper">
-
-            <?php
-        foreach ($latest as $latestmovie) {
-        ?>
-       
-
-
-       
-                <div class="slide swiper-slide">
-                <a href="movie.php?id=<?php echo $latestmovie['id'];  ?>" target="_blank"> <img src="<?php echo $latestmovie['image']; ?>" alt="" class="image"  height="720" width="1280"/></a>
-
-                
-                    <div class="image-data">
-                        <div class="container">
-                            
-                            <h2><?php echo $latestmovie['title'];?></h2>
-                            
-                            
-                            <a href="movie.php?id=<?php echo $latestmovie['id'];  ?>" target="_blank" class="button" style="color:#06f8d0">Read more 	&#8594;</a>
-                        </div>
-                    </div>
-                </div>
-                     
-                
-                <?php }?>
-            </div>
-          
-            <div class="swiper-button-next nav-btn"></div>
-            <div class="swiper-button-prev nav-btn"></div>
-
-        </section>
- -->
- <!-- <section class="poster" style="padding-left:40%">
- <div class="mv-image" >
-                    <img src="https://feeds.abplive.com/onecms/images/uploaded-images/2023/02/13/bd17036dde2797e2749282f18ad037b61676277401720380_original.jpg?impolicy=abp_cdn&imwidth=650" alt="" class="image">
-                </div>
-                </section> -->
-<!-- <section>
-                <div class="container">
-            
-                <div class="mv-image">
-                    <img src="https://feeds.abplive.com/onecms/images/uploaded-images/2023/02/13/bd17036dde2797e2749282f18ad037b61676277401720380_original.jpg?impolicy=abp_cdn&imwidth=650" alt="" class="image">
-                </div>
-        </div>
-        </section> -->
+<!-- eta lekha hai temle -->
         <!-- latest -->
     <section class="blog">
             <div class="container">
