@@ -8,7 +8,7 @@
   --custom-btn-bg-color: #0066cc;
   --custom-btn-bg-hover-color: #00cc99;
   --dark-color: #000000;
-  --p-color: #10d710;
+  --p-color: rgb(7, 7, 7);
   --border-color: #7fffd4;
   --link-hover-color: #0066cc;
   --body-font-family: "Montserrat", sans-serif;
@@ -98,7 +98,7 @@ p {
 }
 
 ul li {
-  color: var(--p-color);
+  color: black;
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-light);
 }
@@ -164,6 +164,7 @@ strong {
 }
 
 main {
+  /* opacity: 0.9; */
   position: relative;
   z-index: 1;
 }
@@ -286,7 +287,7 @@ main {
 
 .navbar-nav .nav-link {
   display: inline-block;
-  /* color: var(--p-color); */
+  color: var(--p-color);
   font-family: var(--title-font-family);
   font-size: var(--menu-font-size);
   font-weight: var(--font-weight-medium);
@@ -562,7 +563,9 @@ a.button:hover {
 .swiper-button-next {
   right: 50px;
 }
-
+/* .swiper{
+  opacity: 0.1;
+} */
 .swiper-button-prev {
   left: 50px;
 }
@@ -1681,6 +1684,7 @@ hr{
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
+  z-index: 5;
 }
 #progress-value {
   display: block;
